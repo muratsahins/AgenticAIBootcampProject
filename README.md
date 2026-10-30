@@ -139,6 +139,10 @@ bulundu. Agent bunu uydurmak yerine kullanıcıya soruyor; verilen cevap kalıc�
 
 ![Netleştirme sorusu](docs/screenshots/01-clarification.png)
 
+**Testler:** Ollama gerektirmeyen 25 test (akış, insan döngüsü, critic döngüsü, hafıza, hata durumları).
+
+![Testler](docs/screenshots/04-tests.png)
+
 Uygulamanın tam çıktısı (beceri tablosu, ön yazı) ve Markdown raporu `output/` klasörüne yazılır.
 Yukarıdaki komutlarla yerelde yeniden üretilebilir.
 
