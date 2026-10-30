@@ -1,0 +1,30 @@
+DENİZ KAYA
+Java Backend Geliştirici
+deniz.kaya@example.com · İstanbul · github.com/example-deniz
+
+ÖZET
+Dört yıllık deneyime sahip Java backend geliştiricisi. Kurumsal müşteriler için REST tabanlı servisler, veritabanı tasarımı ve mesaj kuyruğu entegrasyonları geliştirdim. Temiz kod, test yazma ve ekip içi kod incelemesine önem veririm.
+
+DENEYİM
+
+Backend Geliştirici · Anadolu Yazılım A.Ş. · 2022 - Günümüz (4 yıl)
+- Spring Boot ile ödeme sağlayıcılarına bağlanan REST servisleri geliştirdim; günlük yaklaşık 50 bin işlem işleyen modülün bakımını üstlendim.
+- PostgreSQL üzerinde sorgu optimizasyonu yaptım, kritik raporların süresini 12 saniyeden 3 saniyeye düşürdüm.
+- Siparişler arası asenkron iletişim için RabbitMQ kullandım; tüketici servislerde tekrar deneme ve dead-letter kuyruğu mekanizmasını kurdum.
+- Servisleri Docker ile paketledim, Jenkins üzerinde derleme ve test sürecini otomatikleştirdim.
+- JUnit 5 ve Mockito ile birim testleri yazdım, test kapsamını %45'ten %78'e çıkardım.
+
+Stajyer Yazılım Geliştirici · Marmara Dijital · 2021 (4 ay)
+- Java ve MySQL ile dahili stok takip uygulamasının ekranlarını geliştirdim.
+- Git ile ekip çalışması ve kod inceleme süreçlerini öğrendim.
+
+EĞİTİM
+Bilgisayar Mühendisliği, Lisans · Örnek Teknik Üniversitesi · 2017 - 2021
+
+TEKNİK BECERİLER
+Java, Spring Boot, Spring Data JPA, REST, PostgreSQL, MySQL, RabbitMQ, Docker, Jenkins, Git, JUnit, Mockito, Maven, Linux
+
+DİLLER
+Türkçe (anadil), İngilizce (ileri okuma/yazma, orta konuşma)
+
+NOT: Bu CV tamamen kurgusaldır; örnek veri olarak üretilmiştir.

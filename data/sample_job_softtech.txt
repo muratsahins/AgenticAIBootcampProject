@@ -1,0 +1,29 @@
+Softtech · Java Backend Geliştirici (Orta Seviye)
+Konum: İstanbul (hibrit)
+
+[KURGUSAL ÖRNEK İLAN: Gerçek bir Softtech ilanı değildir; yalnızca bootcamp projesi için hazırlanmış örnek veridir.]
+
+Hakkımızda
+Türkiye'de finans, kamu ve kurumsal müşterilere yazılım çözümleri geliştiren bir teknoloji şirketiyiz. Yüksek hacimli, kesintisiz çalışması gereken bankacılık platformlarını geliştiriyor ve işletiyoruz.
+
+Sorumluluklar
+- Mikroservis mimarisinde ölçeklenebilir Java servisleri tasarlamak ve geliştirmek.
+- Olay tabanlı (event-driven) entegrasyonlar kurmak ve mevcut servislerin performansını iyileştirmek.
+- CI/CD süreçlerine katkı vermek, servislerin konteyner ortamında yayına alınmasını sağlamak.
+- Kod incelemelerine katılmak, birim ve entegrasyon testleri yazmak.
+
+Aranan Nitelikler
+- Bilgisayar Mühendisliği veya ilgili bölümlerden mezun olmak.
+- En az 3 yıl Java ile backend geliştirme deneyimi.
+- Spring Boot ve REST API geliştirme konusunda tecrübe.
+- PostgreSQL veya Oracle gibi ilişkisel veritabanlarında sorgu yazma ve optimizasyon bilgisi.
+- Apache Kafka ile mesajlaşma/olay akışı deneyimi.
+- Docker ve Kubernetes ile konteyner tabanlı yayınlama deneyimi.
+- CI/CD araçlarına hâkimiyet.
+- Git ve birim test yazma alışkanlığı.
+
+Artı Puan
+- Mikroservis mimarisi deneyimi.
+- Bankacılık veya finans alanında çalışmış olmak.
+- Redis gibi önbellek çözümlerini kullanmış olmak.
+- İleri seviye İngilizce.
