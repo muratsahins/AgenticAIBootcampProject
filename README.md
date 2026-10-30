@@ -139,6 +139,17 @@ bulundu. Agent bunu uydurmak yerine kullanıcıya soruyor; verilen cevap kalıc�
 
 ![Netleştirme sorusu](docs/screenshots/01-clarification.png)
 
+**Uyum skoru:** Beceriler deterministik kodla eşleştirilir. Kullanıcı Kafka cevabını verdikten sonra
+"Apache Kafka" eşleşti sayılır ve skor yeniden hesaplanır. Eksik kalan beceriler (ör. Kubernetes)
+eksik analizine girer.
+
+![Uyum skoru tablosu](docs/screenshots/02-score.png)
+
+**Ön yazı:** Yalnızca CV kanıtlarına dayanır; Critic agent denetler, bilinen yer tutucular
+(pozisyon, şirket, ad, tarih) kodla doldurulur.
+
+![Ön yazı](docs/screenshots/02-cover-letter.png)
+
 **Testler:** Ollama gerektirmeyen 25 test (akış, insan döngüsü, critic döngüsü, hafıza, hata durumları).
 
 ![Testler](docs/screenshots/04-tests.png)
