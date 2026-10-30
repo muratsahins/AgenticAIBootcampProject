@@ -113,18 +113,16 @@ def main() -> int:
         "warnings": [],
     }
 
-    try:
-        with console.status("Agent çalışıyor...") as status:
-            for update in graph.stream(state, stream_mode="updates"):
-                for node, delta in update.items():
-                    delta = delta or {}
-                    state.update({key: value for key, value in delta.items() if key != "warnings"})
-                    state["warnings"] += delta.get("warnings", [])
+    console.print("Agent çalışıyor, adımlar tamamlandıkça listelenecek...")
 
-                    # Kullanıcıdan girdi alınabilmesi için canlı göstergeyi geçici durdur
-                    status.stop()
-                    console.print(f"[OK] {STEP_LABELS.get(node, node)}")
-                    status.start()
+    try:
+        for update in graph.stream(state, stream_mode="updates"):
+            for node, delta in update.items():
+                delta = delta or {}
+                state.update({key: value for key, value in delta.items() if key != "warnings"})
+                state["warnings"] += delta.get("warnings", [])
+
+                console.print(f"[OK] {STEP_LABELS.get(node, node)}")
     except LLMError as error:
         console.print(f"[red]Model hatası:[/red] {error}")
         console.print("Ollama çalışıyor mu? (ollama serve) Model yüklü mü? (ollama list)")

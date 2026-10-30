@@ -134,7 +134,13 @@ döngüsünü, hafızayı ve hata durumlarını doğrular.
 
 ## Ekran görüntüleri
 
-SCREENSHOTS_PLACEHOLDER
+**Netleştirme (insan döngüsü):** CV'de Apache Kafka için kesin ifade yok, ancak RabbitMQ kanıtı
+bulundu. Agent bunu uydurmak yerine kullanıcıya soruyor; verilen cevap kalıcı hafızaya yazılır.
+
+![Netleştirme sorusu](docs/screenshots/01-clarification.png)
+
+Uygulamanın tam çıktısı (beceri tablosu, ön yazı) ve Markdown raporu `output/` klasörüne yazılır.
+Yukarıdaki komutlarla yerelde yeniden üretilebilir.
 
 ## Bilinen sınırlar
 
